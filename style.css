@@ -35,3 +35,24 @@ body {
   transform: translate(-50%, -50%);
   color: brown;
 }
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  background-color: brown;
+  padding-left: 20%;
+  padding-right: 20%;
+
+
+}
+
+.bar1 , .bar2 , .bar3, .bar4 {
+  float: left;
+  border-right: 1px solid black;
+  padding-right: 40px;
+  padding-left: 40px;
+}
